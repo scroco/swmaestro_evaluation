@@ -1,0 +1,40 @@
+/* base */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, feldset, input, textarea, p, blockquote, border, th, td{
+	margin:0;
+	padding:0;
+}
+
+body {
+	color:#666666;
+	font-size:12px;
+	font-family:Dotum,Gulim,Verdana,AppleGothic,sans-serif,arial;
+	line-height:15px;
+	background:url(http://swmaestro.kr/css/img/hp/main/bg.jpg) repeat-x;
+	_background: none;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	font-size:12px;
+}
+
+ol, ul, li {
+	list-style:none;
+}
+
+form, fieldset, img{border:0;}
+img {vertical-align:middle;}
+label {cursor:pointer;}
+address, cation, em {
+	font-weight:normal;
+	font-style:normal;
+}
+
+/* a */
+
+a{font-size:small; color:#666666; text-decoration:none;}
+a:hover{font-size:small;color:#000000;}
+a:active{font-size:small;color:#000000;}
+a:focus{font-size:small;color:#666666;}

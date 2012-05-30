@@ -1,0 +1,35 @@
+/* skip */
+#accessibility, .skip, hr, legend{
+	width:1px;
+	height:1px;
+	font-size:0;
+	line-height:0;
+	overflow:hidden;
+	visibility:hidden;
+	z-index:-1;
+	position:absolute;
+	left:-1000px
+}
+.boardSkip {
+	top: -4000px !important;
+	left: -4000px !important;
+	border:1px solid
+}
+
+.post{width:499px}
+
+p.post_txt1{
+	padding:30px 0 0 30px
+}
+
+p.post_txt2{
+	padding:5px 0 0 30px
+}
+
+p.post_txt4{
+	padding:10px 0 0 120px
+}
+
+
+#resultArea{padding:20px 0 0 30px}
+

@@ -1,0 +1,170 @@
+.input_01{border:1px solid #cecece; padding:2px 0 0 3px;background:#f7f7f7}
+select{border:1px solid #cecece;}
+textarea{font-size:12px}
+/* 입력폼 disble하게 보이기 */
+.input_01_disable{
+	border:1px solid #bbbbbb;
+	background:#c9c9c9;
+}
+
+/*게시판 위 검색 부분*/
+span.num{font-weight:bold;color:#762dac}
+.table_top{overflow:hidden;width:100%;margin-top:20px}
+.table_top li{float:left}
+.table_top li.right_t{float:right}
+
+/*디폴트 테이블*/
+.sw_table{width:100%;border:1px solid #ddd; border-collapse:collapse; margin-bottom:30px}
+.sw_table th{border:1px solid #ddd;height:28px;background:#747474;color:#fff}
+.sw_table td{text-align:center;border-right:1px solid #ddd;border-bottom:1px solid #ddd;padding:5px}
+.sw_table td.left{text-align:left}
+.sw_table td.right{text-align:right}
+.sw_table td.gray{background:#ececec; color:#333}
+
+/*방명록 테이블*/
+.sw_table_bang{width:100%;border-collapse:collapse; border:1px solid #e8e8e8; margin-bottom:30px;}
+.sw_table_bang th{ height:25px;background:#efefef; color:#fff}
+.sw_table_bang td{text-align:center;background:url(http://swmaestro.kr/css/img/hp/sub/bang_dot.gif) repeat-x 0 bottom; border-top:1px solid #e8e8e8; border-right:1px solid #fff;  border-bottom:1px solid #fff; border-left:1px solid #fff;padding:5px}
+.sw_table_bang td.left{text-align:left}
+.sw_table_bang td.right{text-align:right}
+.sw_table_bang td.gray{background:#ececec; color:#333}
+.sw_table_bang td span.b_title{font-weight:bold;font-size:12px; color:#018085;padding:0 5px}
+.sw_table_bang td span.b_cont{color:#888;padding:0 5px}
+.sw_table_bang td.no{border:1px solid #e8e8e8;background:none;  border-right:1px solid #fff;  border-left:1px solid #fff; }
+
+
+.day_01{background:#c4df9b;}
+.day_02{background:#7da7d9;}
+.day_03{background:#f5989d;}
+
+
+/*세로형 테이블 파랑색*/
+.sw_table_b{width:100%;border-top:2px solid #778fdc;border-collapse:collapse;margin-bottom:20px}
+caption{display:none}
+.sw_table_b th{height:35px;background:#eaeaea}
+.sw_table_b th, .sw_table_b td{border-bottom:1px solid #ddd;border-right:1px solid #ddd}
+.sw_table_b td{padding:5px 10px;text-align:center}
+.sw_table_b .none{border-right:none}
+
+
+/*세로형 테이블 RSS*/
+.sw_table_r{width:100%;border-top:2px solid #d15300; border-collapse:collapse;margin-bottom:20px}
+caption{display:none}
+.sw_table_r th{height:35px;background:#eaeaea}
+.sw_table_r th, .sw_table_r td{border-bottom:1px solid #ddd;border-right:1px solid #ddd}
+.sw_table_r td{padding:5px 10px;text-align:center}
+.sw_table_r .none{border-right:none}
+
+/**/
+.sw_table_row_j{width:100%;margin-top:10px;border-top:2px solid #778fdc;border-collapse:collapse;margin-bottom:20px}
+caption{display:none}
+.sw_table_row_j th{text-align:left;padding-left:20px;height:35px;background:#eaeaea url(http://swmaestro.kr/css/img/hp/sub/sub_01_02_arrow.jpg) no-repeat 140px 14px;}
+.sw_table_row_j th, .sw_table_row_j td{border-bottom:1px solid #ddd}
+.sw_table_row_j td{padding-left:10px}
+.sw_table_row_j th.height_11{background:#eaeaea url(http://swmaestro.kr/css/img/hp/sub/sub_01_02_arrow.jpg) no-repeat 140px  75px;}
+.sw_table_row_j th.icon_hieight{background:#eaeaea url(http://swmaestro.kr/css/img/hp/sub/sub_01_02_arrow.jpg) no-repeat 140px 27px;}
+/*포인트 폰트*/
+.txt01{font-weight:bold; color:#339;text-decoration:underline}
+.txt02{font-size:14px;font-weight:bold;color:#111}
+.txt03{ color:#ce1d79;font-weight:bold}
+.txt033{ color:#222;font-weight:bold;font-size:11px}
+.txt04{color:#e56f3b;text-decoration:underline;font-weight:bold;}
+.txt05{ color:#bc4848;font-weight:bold}
+.txt06{ color:#af683a;font-weight:bold}
+.text_right{text-align:right;padding:10px 5px}
+.text_right33{text-align:center;padding:0 0 0 0}
+.text_center{text-align:center;padding:10px 5px}
+.btn_w{width:200px; position:relative;top:17px;left:935px}
+.btn_w_left{width:200px; position:absolute;top:181px;left:255px}
+h4.hp_h4{background:none; padding:0 0 8px 0}
+
+
+/*가로형 테이블*/
+.border_2px{border-bottom:2px solid #cecece; border-top:2px solid #cecece;padding:10px 0; width:100%;}
+.sw_table_row td.border_none{border:none}
+.sw_table_row{width:100%; border-collapse:collapse;}
+.sw_table_row th{border-bottom:1px solid #cecece; background:#747474;color:#fff; width:120px}
+.sw_table_row td{border-bottom:1px solid #cecece; padding:5px 5px 5px 10px; height:20px;}
+.sw_table_row td input{vertical-align:middle}
+
+
+/*달력 테이블*/
+.sw_table_cal{width:100%;border:1px solid #ddd; border-collapse:collapse;margin-top:5px}
+.sw_table_cal th{border:1px solid #ddd;height:25px;background:#888;color:#fff}
+.sw_table_cal th.sun{background:#ecb0b0}
+.sw_table_cal th.sat{background:#9cc0e3}
+.sw_table_cal td{border-right:1px solid #ddd; border-bottom:1px solid #ddd; padding:5px 5px 0 5px; vertical-align:top;margin:0;}
+.sw_table_cal td ul li.date{text-align:right;padding-bottom:5px}
+.sw_table_cal td.sun ul li.date{color:#c31313}
+.sw_table_cal td.sat ul li.date{color:#3b62bb}
+.sw_table_cal td ul{width:100%}
+
+
+/*일정 테이블*/
+.sw_table_row_03{width:100%;border-top:2px solid #778fdc;border-collapse:collapse;margin-bottom:20px}
+caption{display:none}
+.sw_table_row_03 th{text-align:left;padding-left:10px;height:35px;background:#eaeaea url(http://swmaestro.kr/css/img/hp/sub/sub_01_02_arrow.jpg) no-repeat 100px 14px;}
+.sw_table_row_03 th, .sw_table_row_03 td{border-bottom:1px solid #ddd}
+.sw_table_row_03 td{padding-left:10px}
+.sw_table_row_03 th.title01{height:60px;background:#eaeaea url(http://swmaestro.kr/css/img/hp/sub/sub_01_02_arrow.jpg) no-repeat 100px 25px;}
+
+
+
+/*일자보기 테이블*/
+.side_3dep li{float: left;}
+
+/*일자보기 테이블*/
+.sw_table_day{width:100%;border:1px solid #ddd; border-collapse:collapse;margin-top:5px}
+.sw_table_day th{border:1px solid #ddd;height:25px;background:#747474;color:#fff}
+.sw_table_day td{border-right:1px solid #ddd; border-bottom:1px solid #ddd; padding:2px;margin:0;}
+.sw_table_day td.cen{text-align:center;background:#858585;color:#fff; font-weight:bold}
+
+/*팝업 레이어*/
+.pop_sc{width:340px;padding:15px 15px 0 15px;position:absolute;border:1px solid #ddd;top:275px;left:730px;background:#fff}
+
+
+/* 갤러리 게시판 섬네일 형*/
+.board_g{clear:both; width:100%; border-top:2px solid #ddd;padding-top:10px}
+.board_g p.sel{text-align:right;padding:10px 5px 10px 0 }
+.board_g .board_photo{ clear:both;width:100%; overflow:hidden;margin-bottom:20px}
+.board_g .board_photo dl{float:left; margin-right:30px;}
+.board_g .board_photo dl.padding_none{margin:0}
+.board_g .board_photo dl dt{border:1px solid #ddd; width:160px; height:140px;}
+.board_g .board_photo dl dd{ width:160px; height:20px;padding-top:5px;text-align:center}
+
+
+/* 갤러리 게시판 리스트 형*/
+.data_01{clear:both; width:100%;overflow:hidden; margin-bottom:15px;padding-bottom:15px;border-bottom:1px dotted #ddd}
+.data_01 .t_img{float:left;padding:0 15px 0 0}
+.data_01 .t_txt{width:590px;float:left;}
+
+.data_01 .t_txt dl.dl_02 dt{width:590px;padding:10px 0 0 0 ;font-weight:bold;height:25px;font-size:16px;color:#af2871;border-bottom:1px solid #ddd}
+.data_01 .t_txt dl.dl_02 dd{height:40px;padding:15px 0 0 0;color:#999}
+
+.data_01 .t_txt dl.lfet02{width:100px;float:left;padding:5px 0;}
+.data_01 .t_txt dl.lfet02 dt{float:left;font-size:11px;color:#555}
+.data_01 .t_txt dl.lfet02 dd{float:left;font-size:11px;color:#777;}
+
+.data_01 .t_txt dl.lfet03{width:130px;float:left;padding:5px 0;}
+.data_01 .t_txt dl.lfet03 dt{float:left;font-size:11px;color:#555}
+.data_01 .t_txt dl.lfet03 dd{float:left;font-size:11px;color:#777}
+
+.data_01 .t_txt dl.lfet04{width:100px;float:left;padding:5px 0;}
+.data_01 .t_txt dl.lfet04 dt{float:left;font-size:11px;color:#555}
+.data_01 .t_txt dl.lfet04 dd{float:left;font-size:11px;color:#777}
+
+
+.print_table{width:595px;border:1px solid #111; border-collapse:collapse; margin-bottom:30px;font-size: 10pt;}
+.print_table th{border:1px solid #111;background:#747474;color:#fff}
+.print_table td{text-align:center;border-right:1px solid #111;border-bottom:1px solid #111;padding:5px;}
+.print_table td.left{text-align:left}
+.print_table td.right{text-align:right}
+
+
+.org_tab{overflow:hidden;width:100%;margin-bottom:30px}
+.org_tab li{float:left}
+
+#inImage img{border:1px solid #ddd}
+
+
+#blogRSS_RSS_ITEM h3 a,#blogRSS_RSS_ITEM h3 a:link {color:#222}
