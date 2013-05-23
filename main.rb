@@ -22,6 +22,8 @@ module SWMaestro
 
       doc = Nokogiri::HTML(page.body)
 
+      #puts doc.to_s
+
       wrap_html do
         # 페이지네이션 처리
         doc.css("li.pagingNumbering").each_with_index do |link, idx|
@@ -62,9 +64,10 @@ module SWMaestro
     def login
       visit('/jsp/hj/hj01/evaluation.do')
       within("form[name=frm_login]") do
+        puts "#{username}, #{password}"
         fill_in 'LOGIN_ID', :with => username
         fill_in 'LOGIN_PW', :with => password
-        click_link ''
+        find(:xpath, "//a/img").click
       end
     end
 
